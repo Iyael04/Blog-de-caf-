@@ -14,7 +14,7 @@ html{
 }
 body{
     font-family: 'Roboto';
-    line-height: 2;
+    line-height: 1.2;
     font-size: 1.8rem;
 }
 .contenedor{
@@ -123,4 +123,24 @@ img{
 }
 .boton-primario{
     background-color: var(--negro);
+}
+.boton-secundario{
+    background-color: var(--primario);
+}
+.cursos{
+    list-style: none;
+}
+.widget-curso{
+    border-bottom: 1px var(--gris);
+    margin-bottom: 2rem;
+}
+.widget-curso:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+.widget-curso__label{
+    font-weight: 700;
+}
+.widget-curso__info{
+    font-weight: 400;
 }
